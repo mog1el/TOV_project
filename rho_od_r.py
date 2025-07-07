@@ -38,14 +38,14 @@ while state[1] > 0:
     state = [mass, press]
     radiusy.append(r/1000)
     densities.append(Density(press))
-    print(f"dla r = {r} zrobione")
+    print(f"Done for r = {r/1000} km")
     r += dr
 
 plt.plot(radiusy, densities)
 plt.axhline(y=rhoc, color='grey', linestyle='--')
 plt.axhline(y=rho0, color='grey', linestyle='--')
-plt.title('Gęstość od promienia')
-plt.xlabel('Promień [km]')
-plt.ylabel('Gęstość [kg/m^3]')
+plt.title('Rho(r)')
+plt.xlabel('Radius [km]')
+plt.ylabel('Density [kg/m^3]')
 plt.grid(True)
 plt.show()
