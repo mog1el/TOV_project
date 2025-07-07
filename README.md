@@ -5,9 +5,9 @@ A project that simulates important relations in neutron stars by numerically sol
 Assumptions:
 
 1. $a = 0.1$
-2. $\rho_0 = 10^{17}$
-3. $\rho_c = 2 * 10^{18}$
-4. $c = 3 * 10^8$
+2. $\rho_0 = 10^{17} \frac{kg}{m^3}$
+3. $\rho_c = 2 * 10^{18} \frac{kg}{m^3}$
+4. $c = 3 * 10^8 \frac{m}{s}$
 
 All of them are listed at the top of each script, so feel free to change them if you deem it necessary (for example to improve accuracy).
 
