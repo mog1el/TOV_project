@@ -51,6 +51,6 @@ for rho0 in rho0list:
 plt.plot(rho0list, radiusy)
 plt.title('R(Rho0)')
 plt.xlabel('Rho0 [kg/m^3]')
-plt.ylabel('Promień [km]')
+plt.ylabel('Radius [km]')
 plt.grid(True)
 plt.show()
