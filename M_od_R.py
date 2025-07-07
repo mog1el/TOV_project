@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 G = 6.67430e-11
-c = 299792458
+c = 3e8
 M_sun = 1.9891e30
 rho0 = 1e17
 a = 0.1
@@ -37,7 +37,7 @@ def solve(rhoc):
         r += dr
     return [r, mass]
 
-num = 5000
+num = 10000
 rhoclist = np.linspace(rho0 + 1, rho0 * 100, num)
 radiusy = []
 masy = []
@@ -52,7 +52,7 @@ for rhoc in rhoclist:
 
 plt.plot(radiusy, masy)
 plt.title('M(R)')
-plt.xlabel('Promień [km]')
-plt.ylabel('Masa w masach słońca')
+plt.xlabel('Radius [km]')
+plt.ylabel('Mass [M☉]')
 plt.grid(True)
 plt.show()
