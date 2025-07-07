@@ -51,6 +51,6 @@ for rho0 in rho0list:
 plt.plot(rho0list, masy)
 plt.title('M(Rho0)')
 plt.xlabel('Rho0 [kg/m^3]')
-plt.ylabel('Masa w masach słońca')
+plt.ylabel('Mass [M☉]')
 plt.grid(True)
 plt.show()
