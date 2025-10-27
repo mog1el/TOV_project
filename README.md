@@ -1,4 +1,4 @@
-A project that simulates important relations in neutron stars by numerically solving the TOV equations and a "primitive" EoS $P = a(\rho - \rho_0)c^2$. The scripts model $M(R)$, $\rho(r)$, $R(\rho_0)$ and $M(\rho_0)$. The project was assigned by prof. Tomasz Bulik, who suggested it to me as a way to hone my programming skills.
+A project that simulates important relations in neutron stars by numerically solving the TOV equations and a "primitive" EoS $P = a(\rho - \rho_0)c^2$. The scripts model $M(R)$, $\rho(r)$, $R(\rho_0)$ and $M(\rho_0)$. The project was assigned by a professor, who suggested it to me as a way to hone my programming skills.
 
 ---
 
